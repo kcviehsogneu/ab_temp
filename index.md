@@ -13,6 +13,14 @@
   } );
   </script>
   <script>
+  $.fn.dataTable.ext.type.order['cats-pre'] = function ( d ) {
+    switch ( d ) {
+        case 'Low':    return 1;
+        case 'Medium': return 2;
+        case 'High':   return 3;
+    }
+    return 0;
+  };
   $(document).ready(function() {
       $('#cats').DataTable( {
           "ajax": "cats.json"
