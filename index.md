@@ -23,7 +23,7 @@
   };
   $(document).ready(function() {
       $('#cats').DataTable( {
-          "ajax": "cats.json"
+          "ajax": "cats.json",
 	  "columnDefs": [ {
 	      "type": "ratings",
 	      "targets": -1
