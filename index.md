@@ -25,8 +25,8 @@
       $('#cats').DataTable( {
           "ajax": "cats.json"
 	  "columnDefs": [ {
-            "type": "ratings",
-            "targets": -1
+	      "type": "ratings",
+	      "targets": -1
         } ]
       } );
   } );
