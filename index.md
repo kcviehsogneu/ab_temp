@@ -11,7 +11,7 @@
           "ajax": "dogs.json",
 	  "columnDefs": [ {
 	      "type": "ratings",
-	      "targets": -5
+	      "targets": -4
         } ]
       } );
   } );
@@ -58,8 +58,8 @@
             <tr>
 		<th>Rank</th>
                 <th>Ingredient</th>
-		<th>Drug Class</th>
-                <th>ASTAG Rating</th>
+		<th>ASTAG Rating</th>
+                <th>Drug Class</th>
                 <th>WHO Rating</th>
                 <th>System Antimicrobial Consults (%)</th>
                 <th>Topical Antimicrobial Consults (%)</th>
