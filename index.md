@@ -8,7 +8,11 @@
   <script>
   $(document).ready(function() {
       $('#dogs').DataTable( {
-          "ajax": "dogs.json"
+          "ajax": "dogs.json",
+	  "columnDefs": [ {
+	      "type": "ratings",
+	      "targets": -5
+        } ]
       } );
   } );
   </script>
