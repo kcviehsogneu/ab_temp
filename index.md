@@ -26,7 +26,7 @@
           "ajax": "cats.json",
 	  "columnDefs": [ {
 	      "type": "ratings",
-	      "targets": -1
+	      "targets": -5
         } ]
       } );
   } );
