@@ -22,7 +22,7 @@
 	dom: 'BCfrtip',
         buttons: ['copyHtml5',
             'csvHtml5'],
-	"lengthMenu": [[10, -1]]
+	"lengthMenu": [[10, -1]],
   	"columnDefs": [ {
 		"type": "ratings",
       		"targets": -4
