@@ -18,6 +18,7 @@
   $(document).ready(function() {
       $('#dogs').DataTable( {
   	"ajax": "dogs.json",
+	"pageLength": 50,
 	colReorder: true,
 	dom: 'BCfrtip',
         buttons: ['copyHtml5',
@@ -42,6 +43,7 @@
   $(document).ready(function() {
       $('#cats').DataTable( {
           "ajax": "cats.json",
+	"pageLength": 50,
 	dom: 'Bfrtip',
         buttons: ['copyHtml5',
             'csvHtml5'],
