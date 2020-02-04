@@ -20,9 +20,7 @@
   	"ajax": "dogs.json",
 	dom: 'Bfrtip',
         buttons: ['copyHtml5',
-            'excelHtml5',
-            'csvHtml5',
-            'pdfHtml5'],
+            'csvHtml5'],
   	"columnDefs": [ {
 		"type": "ratings",
       		"targets": -4
