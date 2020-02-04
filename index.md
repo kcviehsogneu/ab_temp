@@ -18,7 +18,7 @@
   $(document).ready(function() {
       $('#dogs').DataTable( {
   	"ajax": "dogs.json",
-	colReorder: true
+	colReorder: true,
 	dom: 'BCfrtip',
         buttons: ['copyHtml5',
             'csvHtml5'],
