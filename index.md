@@ -17,12 +17,12 @@
 
   $(document).ready(function() {
       $('#dogs').DataTable( {
-      	dom: 'Bfrtip',
+  	"ajax": "dogs.json",
+	dom: 'Bfrtip',
         buttons: ['copyHtml5',
             'excelHtml5',
             'csvHtml5',
             'pdfHtml5'],
-  	"ajax": "dogs.json",
   	"columnDefs": [ {
 		"type": "ratings",
       		"targets": -4
