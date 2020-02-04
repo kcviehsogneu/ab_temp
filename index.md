@@ -18,7 +18,6 @@
   $(document).ready(function() {
       $('#dogs').DataTable( {
   	"ajax": "dogs.json",
-	dom: 'Bfrtip',
         buttons: ['copyHtml5',
             'csvHtml5'],
   	"columnDefs": [ {
