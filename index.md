@@ -20,7 +20,7 @@
         buttons: ['copyHtml5',
             'excelHtml5',
             'csvHtml5',
-            'pdfHtml5']
+            'pdfHtml5'],
   	"ajax": "dogs.json",
   	"columnDefs": [ {
 		"type": "ratings",
