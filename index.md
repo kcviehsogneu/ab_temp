@@ -16,10 +16,15 @@
 
   $(document).ready(function() {
       $('#dogs').DataTable( {
-          "ajax": "dogs.json",
-	  "columnDefs": [ {
-	      "type": "ratings",
-	      "targets": -4
+      	dom: 'Bfrtip',
+        buttons: ['copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5']
+  	"ajax": "dogs.json",
+  	"columnDefs": [ {
+		"type": "ratings",
+      		"targets": -4
         } ]
       } );
   } );
