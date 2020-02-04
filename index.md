@@ -17,8 +17,8 @@
 
   $(document).ready(function() {
       $('#dogs').DataTable( {
-      	"dom": 'Bfrtip',
-        "buttons": ['copyHtml5',
+      	dom: 'Bfrtip',
+        buttons: ['copyHtml5',
             'excelHtml5',
             'csvHtml5',
             'pdfHtml5'],
