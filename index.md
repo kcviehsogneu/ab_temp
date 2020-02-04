@@ -40,6 +40,9 @@
   $(document).ready(function() {
       $('#cats').DataTable( {
           "ajax": "cats.json",
+	dom: 'Bfrtip',
+        buttons: ['copyHtml5',
+            'csvHtml5'],
 	  "columnDefs": [ {
 	      "type": "ratings",
 	      "targets": -5
